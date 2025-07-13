@@ -1,0 +1,21 @@
+# Ignorar archivos de sistema y temporales
+.DS_Store
+Thumbs.db
+*.log
+
+# Ignorar archivos de XAMPP u otros entornos locales
+xampp/
+vendor/
+node_modules/
+
+# Ignorar archivos de Docker que no deben subirse
+pgdata/
+.env
+
+# Ignorar archivos de configuración de IDE/editor
+.vscode/
+.idea/
+
+# Ignorar archivos de cache y sesiones de PHP
+*.cache
+*.sess
