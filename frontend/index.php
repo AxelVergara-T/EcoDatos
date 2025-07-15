@@ -30,7 +30,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <!DOCTYPE html>
 <html>
-<head><title>Login - EcoDatos</title></head>
+<head>
+    <title>Login - EcoDatos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
 <body>
 <h2>Iniciar Sesión</h2>
 <?php if (isset($error)) echo "<p style='color:red;'>" . htmlspecialchars($error) . "</p>"; ?>
