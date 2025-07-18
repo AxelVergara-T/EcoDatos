@@ -37,13 +37,6 @@ Seguridad
 - Hash SHA-256 para el campo religión.
 - Validación y sanitización de entradas para prevenir ataques como SQL Injection y XSS.
 - Sesiones seguras y autenticación de usuarios.
-Variables de entorno
-Crea un archivo .env con el siguiente contenido como ejemplo:
-
-PEPPER_KEY=clave_secreta_123
-POSTGRES_USER=admin
-POSTGRES_PASSWORD=adminpass
-POSTGRES_DB=mi_base_de_datos
 
 Autor
 Proyecto desarrollado por : Belén gutierrez 
